@@ -5,4 +5,8 @@ Official repository for:
 
 "TCD: Empowering Zero-Shot Detection of LLM-Generated Text using  Token Contextual Dependency"
 
-The code is coming soon.
+## Method
+
+<p align="center">
+  <img src="figs/method.png" alt="TCD method" width="100%">
+</p>
