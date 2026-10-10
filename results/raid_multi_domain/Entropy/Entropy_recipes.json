@@ -1,0 +1,14 @@
+{
+    "method": "Entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "recipes",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.9190430641174316,
+    "human_score_std": 0.5483901500701904,
+    "llm_score_mean": -1.6052892208099365,
+    "llm_score_std": 1.0978583097457886,
+    "AUROC": 0.6647200000000001,
+    "AUPR": 0.7747536272213719,
+    "TPR_AT_FPR_5%": 0.452,
+    "F1": 0.6666666622222223
+}

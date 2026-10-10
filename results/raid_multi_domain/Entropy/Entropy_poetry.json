@@ -1,0 +1,14 @@
+{
+    "method": "Entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "poetry",
+    "eval_batch_size": 8,
+    "human_score_mean": -3.3105947971343994,
+    "human_score_std": 1.0196901559829712,
+    "llm_score_mean": -2.2979040145874023,
+    "llm_score_std": 0.9767751693725586,
+    "AUROC": 0.78816,
+    "AUPR": 0.7329850544208761,
+    "TPR_AT_FPR_5%": 0.112,
+    "F1": 0.7597173095556194
+}

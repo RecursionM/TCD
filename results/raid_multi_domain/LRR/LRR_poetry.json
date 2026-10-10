@@ -1,0 +1,14 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "poetry",
+    "eval_batch_size": 8,
+    "human_score_mean": 1.915714979171753,
+    "human_score_std": 0.17993800342082977,
+    "llm_score_mean": 2.158982038497925,
+    "llm_score_std": 0.2611807882785797,
+    "AUROC": 0.8172479999999999,
+    "AUPR": 0.7805018534304118,
+    "TPR_AT_FPR_5%": 0.2,
+    "F1": 0.7779816464102348
+}

@@ -1,0 +1,17 @@
+{
+    "experiment": "exp3_randomize_weights",
+    "detector": "Binoculars_tcd",
+    "model_base": "meta-llama/Llama-3.2-1B",
+    "model_instruct": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "RealDet",
+    "eval_batch_size": 8,
+    "AUROC": 0.911078,
+    "AUPR": 0.9344097894476658,
+    "TPR_AT_FPR_5%": 0.772,
+    "TPR_AT_FPR_10%": 0.841,
+    "F1": 0.8676699483024531,
+    "human_score_mean": -0.96383495002985,
+    "llm_score_mean": -0.7311125876307487,
+    "intervention": "randomize_permute_weights",
+    "seed": 42
+}

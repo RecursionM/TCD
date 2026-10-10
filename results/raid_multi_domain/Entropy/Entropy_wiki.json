@@ -1,0 +1,14 @@
+{
+    "method": "Entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "wiki",
+    "eval_batch_size": 8,
+    "human_score_mean": -2.426115036010742,
+    "human_score_std": 0.5853996276855469,
+    "llm_score_mean": -1.9910715818405151,
+    "llm_score_std": 0.8951418995857239,
+    "AUROC": 0.700592,
+    "AUPR": 0.6941395892614918,
+    "TPR_AT_FPR_5%": 0.108,
+    "F1": 0.7045454495595156
+}

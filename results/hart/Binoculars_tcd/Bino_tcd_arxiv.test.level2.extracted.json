@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "arxiv.test.level2.extracted",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.020747184753418,
+    "human_score_std": 0.06672678142786026,
+    "llm_score_mean": -0.9274179935455322,
+    "llm_score_std": 0.12814758718013763,
+    "AUROC": 0.7305065,
+    "AUPR": 0.7972927985058963,
+    "TPR_AT_FPR_5%": 0.452,
+    "F1": 0.6863659877491274
+}

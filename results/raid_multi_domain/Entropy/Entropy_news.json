@@ -1,0 +1,14 @@
+{
+    "method": "Entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "news",
+    "eval_batch_size": 8,
+    "human_score_mean": -2.57489013671875,
+    "human_score_std": 0.5438527464866638,
+    "llm_score_mean": -2.1403095722198486,
+    "llm_score_std": 0.8348475694656372,
+    "AUROC": 0.7058239999999999,
+    "AUPR": 0.7095708273719729,
+    "TPR_AT_FPR_5%": 0.092,
+    "F1": 0.6986027894111977
+}

@@ -1,0 +1,17 @@
+{
+    "experiment": "exp5_ablate_low_entropy_heads",
+    "detector": "Fast-DetectGPT_tcd",
+    "model_base": "meta-llama/Llama-3.2-1B",
+    "model_instruct": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "M4",
+    "eval_batch_size": 8,
+    "AUROC": 0.9083105,
+    "AUPR": 0.9241638967680825,
+    "TPR_AT_FPR_5%": 0.709,
+    "TPR_AT_FPR_10%": 0.772,
+    "F1": 0.8312883385608123,
+    "human_score_mean": -1.077451171875,
+    "llm_score_mean": 1.69022216796875,
+    "intervention": "ablate_low_entropy_heads",
+    "head_ratio": 0.3
+}

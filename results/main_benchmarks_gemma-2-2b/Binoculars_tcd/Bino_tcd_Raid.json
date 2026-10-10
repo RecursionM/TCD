@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "google/gemma-2-2b",
+    "performer_model_path": "google/gemma-2-2b-it",
+    "eval_dataset": "Raid",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.1152647733688354,
+    "human_score_std": 0.11188238114118576,
+    "llm_score_mean": -0.9243764877319336,
+    "llm_score_std": 0.15857437252998352,
+    "AUROC": 0.8402884999999999,
+    "AUPR": 0.8753250004573508,
+    "TPR_AT_FPR_5%": 0.576,
+    "F1": 0.7710371769984032
+}

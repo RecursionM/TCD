@@ -1,0 +1,14 @@
+{
+    "method": "Likelihood",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "poetry",
+    "eval_batch_size": 8,
+    "human_score_mean": -3.4476191997528076,
+    "human_score_std": 0.9619024991989136,
+    "llm_score_mean": -2.566272735595703,
+    "llm_score_std": 1.0428318977355957,
+    "AUROC": 0.7672,
+    "AUPR": 0.7277344953767233,
+    "TPR_AT_FPR_5%": 0.132,
+    "F1": 0.7634194781015696
+}

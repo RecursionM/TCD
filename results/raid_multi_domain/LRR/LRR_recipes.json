@@ -1,0 +1,14 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "recipes",
+    "eval_batch_size": 8,
+    "human_score_mean": 2.242767810821533,
+    "human_score_std": 0.16178689897060394,
+    "llm_score_mean": 2.3939177989959717,
+    "llm_score_std": 0.32973670959472656,
+    "AUROC": 0.655472,
+    "AUPR": 0.7527558519552279,
+    "TPR_AT_FPR_5%": 0.428,
+    "F1": 0.6666666622222223
+}

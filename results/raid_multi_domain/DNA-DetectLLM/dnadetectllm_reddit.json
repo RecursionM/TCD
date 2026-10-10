@@ -1,0 +1,16 @@
+{
+    "method": "dna_detectllm",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "reddit",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.6472938060760498,
+    "human_score_std": 0.050241440534591675,
+    "llm_score_mean": -0.5392017960548401,
+    "llm_score_std": 0.1056060791015625,
+    "AUROC": 0.834912,
+    "AUPR": 0.8602569532007776,
+    "TPR_AT_FPR_5%": 0.62,
+    "TPR_AT_FPR_10%": 0.68,
+    "F1": 0.8015872965876166
+}

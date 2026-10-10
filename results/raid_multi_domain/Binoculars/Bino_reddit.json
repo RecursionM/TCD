@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "reddit",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.9599874019622803,
+    "human_score_std": 0.08306337893009186,
+    "llm_score_mean": -0.7824779748916626,
+    "llm_score_std": 0.17145828902721405,
+    "AUROC": 0.8345040000000001,
+    "AUPR": 0.8637626298864737,
+    "TPR_AT_FPR_5%": 0.576,
+    "F1": 0.7992277942338367
+}

@@ -1,0 +1,14 @@
+{
+    "method": "LogRank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "reviews",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.5622435808181763,
+    "human_score_std": 0.5100370049476624,
+    "llm_score_mean": -1.0405818223953247,
+    "llm_score_std": 0.5639094114303589,
+    "AUROC": 0.7676959999999999,
+    "AUPR": 0.7403825712656313,
+    "TPR_AT_FPR_5%": 0.136,
+    "F1": 0.7544910129640918
+}

@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "recipes",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.9364240169525146,
+    "human_score_std": 0.08073718100786209,
+    "llm_score_mean": -0.751386284828186,
+    "llm_score_std": 0.25098511576652527,
+    "AUROC": 0.7340720000000001,
+    "AUPR": 0.8245462721682535,
+    "TPR_AT_FPR_5%": 0.528,
+    "F1": 0.7129629580868484
+}

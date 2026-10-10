@@ -1,0 +1,16 @@
+{
+    "experiment": "exp4_swap_weights",
+    "detector": "DNA-DetectLLM_tcd",
+    "model_base": "meta-llama/Llama-3.2-1B",
+    "model_instruct": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "Raid",
+    "eval_batch_size": 8,
+    "AUROC": 0.797083,
+    "AUPR": 0.8773299548473938,
+    "TPR_AT_FPR_5%": 0.683,
+    "TPR_AT_FPR_10%": 0.724,
+    "F1": 0.7954048090486429,
+    "human_score_mean": -0.6213820019960403,
+    "llm_score_mean": -0.4829247905164957,
+    "intervention": "swap_invert_weights"
+}

@@ -1,0 +1,14 @@
+{
+    "method": "LogRank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "Raid",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.4953312873840332,
+    "human_score_std": 0.43507593870162964,
+    "llm_score_mean": -0.9565405249595642,
+    "llm_score_std": 0.6207016706466675,
+    "AUROC": 0.7845960000000001,
+    "AUPR": 0.8395328670191299,
+    "TPR_AT_FPR_5%": 0.509,
+    "F1": 0.7331742193539569
+}

@@ -1,0 +1,16 @@
+{
+    "method": "dna_detectllm",
+    "observer_model_path": "tiiuae/falcon-7b",
+    "performer_model_path": "tiiuae/falcon-7b-instruct",
+    "eval_dataset": "M4",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.6795508861541748,
+    "human_score_std": 0.031291164457798004,
+    "llm_score_mean": -0.5690298676490784,
+    "llm_score_std": 0.07760879397392273,
+    "AUROC": 0.9169215,
+    "AUPR": 0.9393269077161078,
+    "TPR_AT_FPR_5%": 0.784,
+    "TPR_AT_FPR_10%": 0.8256666666666667,
+    "F1": 0.8593831628096096
+}

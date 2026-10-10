@@ -1,0 +1,14 @@
+{
+    "method": "LogRank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "poetry",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.8543232679367065,
+    "human_score_std": 0.6079709529876709,
+    "llm_score_mean": -1.249496340751648,
+    "llm_score_std": 0.6133225560188293,
+    "AUROC": 0.7820800000000001,
+    "AUPR": 0.738149102234184,
+    "TPR_AT_FPR_5%": 0.128,
+    "F1": 0.7624750449002196
+}

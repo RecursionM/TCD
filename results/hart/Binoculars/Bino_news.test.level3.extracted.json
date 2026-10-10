@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "news.test.level3.extracted",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.9514135718345642,
+    "human_score_std": 0.07917317003011703,
+    "llm_score_mean": -0.8000156879425049,
+    "llm_score_std": 0.12374433130025864,
+    "AUROC": 0.85497,
+    "AUPR": 0.8804595085497884,
+    "TPR_AT_FPR_5%": 0.59,
+    "F1": 0.8045737995816064
+}

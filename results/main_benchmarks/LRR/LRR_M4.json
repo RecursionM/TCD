@@ -1,0 +1,14 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "M4",
+    "eval_batch_size": 8,
+    "human_score_mean": 1.970906376838684,
+    "human_score_std": 0.0999617725610733,
+    "llm_score_mean": 2.2032523155212402,
+    "llm_score_std": 0.1759331375360489,
+    "AUROC": 0.887367,
+    "AUPR": 0.907244531700196,
+    "TPR_AT_FPR_5%": 0.624,
+    "F1": 0.820512815518074
+}

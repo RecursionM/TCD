@@ -1,0 +1,17 @@
+{
+    "experiment": "exp3_randomize_weights",
+    "detector": "DNA-DetectLLM_tcd",
+    "model_base": "meta-llama/Llama-3.2-1B",
+    "model_instruct": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "RealDet",
+    "eval_batch_size": 8,
+    "AUROC": 0.915477,
+    "AUPR": 0.9372430819369504,
+    "TPR_AT_FPR_5%": 0.785,
+    "TPR_AT_FPR_10%": 0.844,
+    "F1": 0.8711156343293363,
+    "human_score_mean": -0.6536044307649136,
+    "llm_score_mean": -0.5116287994682789,
+    "intervention": "randomize_permute_weights",
+    "seed": 42
+}

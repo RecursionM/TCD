@@ -1,0 +1,16 @@
+{
+    "method": "dna_detectllm",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "essay.test.level3.extracted",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.6588624119758606,
+    "human_score_std": 0.06070386618375778,
+    "llm_score_mean": -0.5642523169517517,
+    "llm_score_std": 0.054958127439022064,
+    "AUROC": 0.8768159999999999,
+    "AUPR": 0.86249210515286,
+    "TPR_AT_FPR_5%": 0.406,
+    "TPR_AT_FPR_10%": 0.646,
+    "F1": 0.8165569094107892
+}

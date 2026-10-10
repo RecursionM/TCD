@@ -1,0 +1,14 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "reddit",
+    "eval_batch_size": 8,
+    "human_score_mean": 2.0156002044677734,
+    "human_score_std": 0.13652262091636658,
+    "llm_score_mean": 2.257819652557373,
+    "llm_score_std": 0.2812226116657257,
+    "AUROC": 0.8052320000000001,
+    "AUPR": 0.8229150049291392,
+    "TPR_AT_FPR_5%": 0.372,
+    "F1": 0.7716535383083266
+}

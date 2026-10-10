@@ -1,0 +1,16 @@
+{
+    "method": "dna_detectllm",
+    "observer_model_path": "google/gemma-2-2b",
+    "performer_model_path": "google/gemma-2-2b-it",
+    "eval_dataset": "M4",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.7235009074211121,
+    "human_score_std": 0.060142632573843,
+    "llm_score_mean": -0.6262892484664917,
+    "llm_score_std": 0.061103880405426025,
+    "AUROC": 0.8994364999999999,
+    "AUPR": 0.9136061062820668,
+    "TPR_AT_FPR_5%": 0.6683333333333333,
+    "TPR_AT_FPR_10%": 0.772,
+    "F1": 0.8252271462797816
+}

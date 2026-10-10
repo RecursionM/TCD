@@ -1,0 +1,14 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "RealDet",
+    "eval_batch_size": 8,
+    "human_score_mean": 1.9738436937332153,
+    "human_score_std": 0.110462985932827,
+    "llm_score_mean": 2.258025884628296,
+    "llm_score_std": 0.19372887909412384,
+    "AUROC": 0.888744,
+    "AUPR": 0.9131163841993902,
+    "TPR_AT_FPR_5%": 0.693,
+    "F1": 0.8300355099681043
+}

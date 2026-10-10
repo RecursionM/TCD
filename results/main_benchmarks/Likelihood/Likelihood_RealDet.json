@@ -1,0 +1,14 @@
+{
+    "method": "Likelihood",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "RealDet",
+    "eval_batch_size": 8,
+    "human_score_mean": -3.179659128189087,
+    "human_score_std": 0.5261347889900208,
+    "llm_score_mean": -2.032853603363037,
+    "llm_score_std": 0.7410412430763245,
+    "AUROC": 0.8809399999999998,
+    "AUPR": 0.9175075114323104,
+    "TPR_AT_FPR_5%": 0.762,
+    "F1": 0.846778554861056
+}

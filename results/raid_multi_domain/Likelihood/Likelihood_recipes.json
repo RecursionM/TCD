@@ -1,0 +1,14 @@
+{
+    "method": "Likelihood",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "recipes",
+    "eval_batch_size": 8,
+    "human_score_mean": -2.282315492630005,
+    "human_score_std": 0.5386494398117065,
+    "llm_score_mean": -1.8625068664550781,
+    "llm_score_std": 1.1930091381072998,
+    "AUROC": 0.672864,
+    "AUPR": 0.7752350320312255,
+    "TPR_AT_FPR_5%": 0.424,
+    "F1": 0.6888888839506173
+}

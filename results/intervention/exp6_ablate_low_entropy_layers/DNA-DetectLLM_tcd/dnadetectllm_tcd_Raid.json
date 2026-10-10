@@ -1,0 +1,16 @@
+{
+    "experiment": "exp6_ablate_low_entropy_layers",
+    "detector": "DNA-DetectLLM_tcd",
+    "model_base": "meta-llama/Llama-3.2-1B",
+    "model_instruct": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "Raid",
+    "eval_batch_size": 8,
+    "AUROC": 0.8359859999999999,
+    "AUPR": 0.881509536842572,
+    "TPR_AT_FPR_5%": 0.63,
+    "TPR_AT_FPR_10%": 0.707,
+    "F1": 0.7889344212325317,
+    "human_score_mean": -0.675840559989214,
+    "llm_score_mean": -0.547241801097989,
+    "intervention": "ablate_low_entropy_layers"
+}

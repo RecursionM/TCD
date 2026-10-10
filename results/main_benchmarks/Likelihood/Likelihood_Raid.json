@@ -1,0 +1,14 @@
+{
+    "method": "Likelihood",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "Raid",
+    "eval_batch_size": 8,
+    "human_score_mean": -2.954561471939087,
+    "human_score_std": 0.647055447101593,
+    "llm_score_mean": -2.040334701538086,
+    "llm_score_std": 1.105434536933899,
+    "AUROC": 0.775133,
+    "AUPR": 0.8392826841034228,
+    "TPR_AT_FPR_5%": 0.542,
+    "F1": 0.7207688150977345
+}

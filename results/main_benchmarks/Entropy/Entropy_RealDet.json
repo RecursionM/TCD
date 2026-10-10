@@ -1,0 +1,14 @@
+{
+    "method": "Entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "RealDet",
+    "eval_batch_size": 8,
+    "human_score_mean": -2.9291646480560303,
+    "human_score_std": 0.4808477461338043,
+    "llm_score_mean": -1.9972895383834839,
+    "llm_score_std": 0.6353143453598022,
+    "AUROC": 0.8734770000000001,
+    "AUPR": 0.9051542518241192,
+    "TPR_AT_FPR_5%": 0.707,
+    "F1": 0.8165289206717817
+}

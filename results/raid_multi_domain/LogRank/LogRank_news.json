@@ -1,0 +1,14 @@
+{
+    "method": "LogRank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "news",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.3741191625595093,
+    "human_score_std": 0.31821340322494507,
+    "llm_score_mean": -1.0832527875900269,
+    "llm_score_std": 0.6025263667106628,
+    "AUROC": 0.722976,
+    "AUPR": 0.7483259835227223,
+    "TPR_AT_FPR_5%": 0.168,
+    "F1": 0.7402862935710373
+}

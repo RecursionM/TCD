@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "tiiuae/falcon-7b",
+    "performer_model_path": "tiiuae/falcon-7b-instruct",
+    "eval_dataset": "Raid",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.0113027095794678,
+    "human_score_std": 0.054069045931100845,
+    "llm_score_mean": -0.789847195148468,
+    "llm_score_std": 0.18653978407382965,
+    "AUROC": 0.858757,
+    "AUPR": 0.9149793064905225,
+    "TPR_AT_FPR_5%": 0.776,
+    "F1": 0.853185590626223
+}

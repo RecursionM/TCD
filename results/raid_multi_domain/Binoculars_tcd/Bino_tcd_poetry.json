@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "poetry",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.0368272066116333,
+    "human_score_std": 0.08630262315273285,
+    "llm_score_mean": -0.8202112317085266,
+    "llm_score_std": 0.17658023536205292,
+    "AUROC": 0.8742800000000001,
+    "AUPR": 0.8895187802628541,
+    "TPR_AT_FPR_5%": 0.488,
+    "F1": 0.8201160491640135
+}

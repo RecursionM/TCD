@@ -1,0 +1,14 @@
+{
+    "method": "Likelihood",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "reviews",
+    "eval_batch_size": 8,
+    "human_score_mean": -3.042020797729492,
+    "human_score_std": 0.8574388027191162,
+    "llm_score_mean": -2.208017110824585,
+    "llm_score_std": 1.002138614654541,
+    "AUROC": 0.7545439999999999,
+    "AUPR": 0.7333162239254277,
+    "TPR_AT_FPR_5%": 0.132,
+    "F1": 0.7635658864776756
+}

@@ -1,0 +1,14 @@
+{
+    "method": "Entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "reddit",
+    "eval_batch_size": 8,
+    "human_score_mean": -2.778028964996338,
+    "human_score_std": 0.7468348145484924,
+    "llm_score_mean": -2.047372817993164,
+    "llm_score_std": 0.8915685415267944,
+    "AUROC": 0.770016,
+    "AUPR": 0.7287897775679635,
+    "TPR_AT_FPR_5%": 0.128,
+    "F1": 0.7602591742975896
+}

@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "homoglyph",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.9683905243873596,
+    "human_score_std": 0.06514457613229752,
+    "llm_score_mean": -0.9427379369735718,
+    "llm_score_std": 0.061508696526288986,
+    "AUROC": 0.6268055555555556,
+    "AUPR": 0.5891486071765093,
+    "TPR_AT_FPR_5%": 0.08333333333333333,
+    "F1": 0.6824999953125002
+}

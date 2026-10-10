@@ -1,0 +1,16 @@
+{
+    "method": "dna_detectllm",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "homoglyph",
+    "eval_batch_size": 8,
+    "human_score_mean": -0.6965690851211548,
+    "human_score_std": 0.04888489469885826,
+    "llm_score_mean": -0.6519198417663574,
+    "llm_score_std": 0.030042361468076706,
+    "AUROC": 0.8006222222222222,
+    "AUPR": 0.7104676582906895,
+    "TPR_AT_FPR_5%": 0.11,
+    "TPR_AT_FPR_10%": 0.3466666666666667,
+    "F1": 0.7823613037844314
+}

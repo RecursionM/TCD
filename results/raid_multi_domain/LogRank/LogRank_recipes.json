@@ -1,0 +1,14 @@
+{
+    "method": "LogRank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "recipes",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.035415530204773,
+    "human_score_std": 0.30334895849227905,
+    "llm_score_mean": -0.8617832660675049,
+    "llm_score_std": 0.6949125528335571,
+    "AUROC": 0.674448,
+    "AUPR": 0.7830305501903612,
+    "TPR_AT_FPR_5%": 0.468,
+    "F1": 0.6818181769111571
+}

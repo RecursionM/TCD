@@ -1,0 +1,14 @@
+{
+    "method": "LogRank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "wiki",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.255264401435852,
+    "human_score_std": 0.34098219871520996,
+    "llm_score_mean": -0.9378801584243774,
+    "llm_score_std": 0.5644882917404175,
+    "AUROC": 0.7244799999999999,
+    "AUPR": 0.7502780779447447,
+    "TPR_AT_FPR_5%": 0.2,
+    "F1": 0.7307692257926074
+}

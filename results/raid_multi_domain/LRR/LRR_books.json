@@ -1,0 +1,14 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "books",
+    "eval_batch_size": 8,
+    "human_score_mean": 1.9643054008483887,
+    "human_score_std": 0.1335599720478058,
+    "llm_score_mean": 2.2326431274414062,
+    "llm_score_std": 0.2321864813566208,
+    "AUROC": 0.858032,
+    "AUPR": 0.85964820864471,
+    "TPR_AT_FPR_5%": 0.328,
+    "F1": 0.8148148098180257
+}

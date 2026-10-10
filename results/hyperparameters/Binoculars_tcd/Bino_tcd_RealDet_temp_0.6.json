@@ -1,0 +1,15 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "eval_dataset": "RealDet",
+    "eval_batch_size": 8,
+    "human_score_mean": -1.0392754077911377,
+    "human_score_std": 0.08892439305782318,
+    "llm_score_mean": -0.7930672764778137,
+    "llm_score_std": 0.1267518699169159,
+    "AUROC": 0.9313770000000001,
+    "AUPR": 0.9440827921286394,
+    "TPR_AT_FPR_5%": 0.804,
+    "F1": 0.8707204855491691
+}
